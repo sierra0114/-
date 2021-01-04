@@ -1,0 +1,89 @@
+/* sidebar的文字前图像： */
+#icon2764::before {
+    color: salmon;
+    content: "\2764";
+    margin-right: 5px;
+}
+
+#icon27BD:before {
+    content: "\27BD";
+    margin-right: 5px;
+    color: rgb(133, 133, 133);
+}
+
+#icon2709::before {
+    content: "\2709";
+    margin-right: 5px;
+    color: rgb(164, 178, 226);
+}
+
+#icon9822::before {
+    color: rgb(230, 134, 44);
+    content: "\9822";
+    margin-right: 5px;
+}
+
+#icon2704:before {
+    content: "\2704";
+    margin-right: 5px;
+    color: rgb(171, 95, 194);
+}
+
+#icon25A3::before {
+    content: "\25A3";
+    margin-right: 5px;
+    color: rgb(167, 151, 141);
+}
+
+#icon0040::before {
+    color: rgb(62, 119, 224);
+    content: "\0040";
+    margin-right: 5px;
+}
+
+#icon211E:before {
+    content: "\211E";
+    margin-right: 5px;
+    color: rgb(231, 61, 61);
+}
+
+#icon2720::before {
+    content: "\2720";
+    margin-right: 5px;
+    color: rgb(81, 143, 69);
+}
+
+#icon270E:before {
+    content: "\270E";
+    margin-right: 5px;
+    color: rgb(250, 209, 25);
+}
+
+#icon27B2::before {
+    content: "\27B2";
+    margin-right: 5px;
+    color: rgb(62, 230, 207);
+}
+
+#icon2720::after {
+    content: none;
+}
+
+#icon270E::after {
+    content: none;
+}
+
+#icon27B2::after {
+    content: none;
+}
+
+
+#more::after {
+    content: "\25BC";
+    color: rgb(189, 189, 189);
+}
+/* 要在鼠标悬浮的时候把后缀图案变色，用js试试 */
+/* #more::after:hover {
+    content: "\25BC";
+    color: royalblue;
+} */

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="NewErrorPageTemplate.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script>
+            
+        </script>
+        <title>无法显示此页</title>
+    </head>
+
+    <body onLoad="javascript:addURL();">
+        <div id="contentContainer" class="mainContent">
+            <div id="mainTitle" class="title">无法显示此页</div>
+            <div class="taskSection">
+                <p id="task1">在高级设置中启用 SSL 3.0、TLS 1.0、TLS 1.1 和 TLS 1.2，然后尝试再次连接到 <b><span id="webpage" class="webpageURL"></span></b>。</p>
+            </div>
+            <div><button id="launchInternetOptions" class="launchInternetOptionsButton" onclick="javascript:launchInternetOptions(); return false;">更改设置</button></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>名片设计-在线设计工具</title>
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=1250" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shrtcut icon" type="image/x-icon" href="pic/card-icon.ico" />
+    <meta name="keywords" content="名片，名片设计，在线设计，设计网站，设计素材" />
+    <meta name="description" content="名片设计，在线轻松设计名片。名片设计是一个版主你简单快捷设计名片的在线设计平台，提供大量免费素材和模板。" />
+
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="card-icon.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="head-container">
+                <div class="item-left">
+                    <div draggable="true"><a href="#">名片设计</a></div>
+                </div>
+                <div class="item-right">
+                    <div class="item-right-search">
+                        <div class="item-right-search-in search-img-left">
+                            <svg id="search_outline" viewBox="0 0 1024 1024">
+                                <path fill="#b4b4b4"
+                                    d="M448 128a320 320 0 0 1 263.424 501.76l192.341333 192.341333-60.330666 60.330667-189.482667-189.482667A320 320 0 1 1 448 128z m0 85.333333a234.666667 234.666667 0 1 0 0 469.333334 234.666667 234.666667 0 0 0 0-469.333334z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="item-right-search-in">
+                            <form name="search-form" action="post" id="search-form">
+                                <input class="input" type="search" placeholder="搜索海量模板">
+
+                            </form>
+                        </div>
+                        <div class="item-right-search-in search-img-right">
+                            <svg id="camera-outline" viewBox="0 0 1024 1024">
+                                <path fill="#b4b4b4"
+                                    d="M640 128a42.667 42.667 0 0 1 35.499 18.987L748.16 256H896a42.667 42.667 0 0 1 42.667 42.667v554.666A42.667 42.667 0 0 1 896 896H128a42.667 42.667 0 0 1-42.667-42.667V298.667A42.667 42.667 0 0 1 128 256h147.84l72.661-109.013A42.667 42.667 0 0 1 384 128h256z m-22.827 85.333H406.827l-72.662 109.014a42.667 42.667 0 0 1-35.498 18.986h-128v469.334h682.666V341.333h-128a42.667 42.667 0 0 1-35.498-18.986l-72.662-109.014zM512 341.333A213.333 213.333 0 1 1 512 768a213.333 213.333 0 0 1 0-426.667z m0 85.334a128 128 0 1 0 0 256 128 128 0 0 0 0-256z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="search-dragge-container">
+                        <div class="search-dragge">
+                            <div class="search-dragge-title">大家都在搜</div>
+                            <div class="search-dragge-content">
+                                <ul>
+                                    <li>感恩节</li>
+                                    <li>小雪</li>
+                                    <li>海报</li>
+                                    <li>招聘</li>
+                                    <li>邀请函</li>
+                                    <li>喜报</li>
+                                    <li>感恩节</li>
+                                    <li>小雪</li>
+                                    <li>海报</li>
+                                    <li>招聘</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-right-linls">
+                        <div class="item-right-link head-link">成为vip</div>
+                        <div class="item-right-link head-link">免费领会员</div>
+                        <div class="item-right-link head-link">下载应用</div>
+                        <div class="item-right-link head-link">进入企业版</div>
+                        <div class="item-right-link head-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt"
+                                stroke-linejoin="arcs">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </div>
+                        <div class="item-right-link head-link">注册登录</div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div id="sidebar">
+            <nav class="sidebar-navigator">
+                <div class="sidebar-navigator-links">
+                    <a id="icon2764" class="sidebar-link linkGroup-1">为你推荐</a>
+                    <a id="icon27BD" class="sidebar-link linkGroup-1">我的工作台</a>
+                    <a id="icon2709" class="sidebar-link linkGroup-1">设计协作</a>
+                    <a id="icon9822" class="sidebar-link linkGroup-1">创建设计</a>
+                </div>
+                <p class="sidebar-navigator-title">设计能力</p>
+                <div class="sidebar-navigator-collapse sidebar-link" id="icon2704">平面设计</div>
+                <div class="sidebar-navigator-collapse-links">
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-2">模板中心</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-2">图片编辑</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-2">在线PS</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-2">更多工具</a>
+                </div>
+                <div class="sidebar-navigator-collapse sidebar-link" id="icon25A3">视频创作</div>
+                <div class="sidebar-navigator-collapse-links">
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-3">模板中心</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-3">视频剪辑</a>
+                </div>
+                <div class="sidebar-navigator-collapse sidebar-link" id="icon0040">手机网页</div>
+                <div class="sidebar-navigator-collapse-links">
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-4">模板中心</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-4">网页制作</a>
+                </div>
+                <div class="sidebar-navigator-collapse sidebar-link" id="icon211E">PPT/图表</div>
+                <div class="sidebar-navigator-collapse-links">
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-5">模板中心</a>
+                    <a class="sidebar-navigator-collapse-link sidebar-link linkGroup-5">PPT插件</a>
+                </div>
+                <div class="sidebar-navigator-collapse sidebar-link linkGroup-1" id="icon2720">设计素材</div>
+                <div class="sidebar-navigator-collapse sidebar-link linkGroup-1" id="icon270E">设计抠图</div>
+                <p class="sidebar-navigator-title">营销能力</p>
+                <div class="sidebar-navigator-collapse sidebar-link linkGroup-1" id="icon27B2">营销动态</div>
+            </nav>
+        </div>
+        <main>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </main>
+
+        <footer>
+            <p class="footer-statement" style="white-space: normal;">
+                名片设计模板中心为您提供丰富精美的图片模板，包括图片素材、图片设计元素等，轻松满足您不同的设计需求。选择您喜欢的图片模板，按照自己的喜好对文案字体、图片背景进行修改，3分钟即可在线高效完成图片设计，让您告别复杂设计软件。
+            </p>
+            <div class="footer-separator-line"></div>
+            <div class="footer-links">
+                <span class="footer-link">关于我们</span>
+                <span class="footer-link">帮助中心</span>
+                <span class="footer-link">用户协议</span>
+                <span class="footer-link">隐私协议</span>
+                <span class="footer-link">功能介绍</span>
+                <span class="footer-link">最新模板</span>
+                <span class="footer-link">最新专题</span>
+                <span class="footer-link">最新文章</span>
+            </div>
+            <div class="footer-copyright">
+                <span class="footer-copyright-item">备案号</span>
+                <span class="footer-copyright-item-separator"></span>
+                <span class="footer-copyright-item">公司名称</span>
+                <span class="footer-copyright-item-separator"></span>
+                <span class="footer-copyright-item">互联网安全备案号</span>
+
+            </div>
+        </footer>
+        <div class="quicklink">
+            <div class="quicklink-recruit">
+                <svg viewBox="0 0 1024 1024">
+                    <path
+                        d="M507.494402 824.1153a24.063988 24.063988 0 0 1-24.063988-24.063988v-77.414361H390.400061a24.063988 24.063988 0 0 1 0-48.076776h93.030353v-40.24318H390.400061a24.063988 24.063988 0 0 1 0-48.076776h63.999968L372.58247 495.923464a24.063988 24.063988 0 0 1 35.686382-32.358384l99.94235 110.233545 98.559951-108.953545a24.115188 24.115188 0 1 1 35.839982 32.307183l-80.74236 89.087956h62.463969a24.012788 24.012788 0 0 1 0 48.127976h-92.671954v40.19198h92.671954a24.012788 24.012788 0 0 1 0 48.127976H531.45599v77.363161a24.063988 24.063988 0 0 1-24.012788 24.063988"
+                        fill="#0057FF"></path>
+                    <path
+                        d="M637.337537 467.097878a18.841591 18.841591 0 0 0-26.623986 1.28l-102.399949 113.151943-103.884748-114.431943a18.790391 18.790391 0 0 0-27.903986 25.292788l89.702355 99.12315h-75.775962a18.790391 18.790391 0 1 0 0 37.580781h98.303951v50.687975h-98.303951a18.790391 18.790391 0 1 0 0 37.631981h98.303951v82.687959a18.790391 18.790391 0 1 0 37.580781 0v-82.687959h97.996751a18.790391 18.790391 0 1 0 0-37.631981h-97.894351v-50.687975h97.894351a18.790391 18.790391 0 1 0 0-37.580781h-74.188763l88.575956-97.791951a18.943991 18.943991 0 0 0-1.3824-26.623987"
+                        fill="#0057FF"></path>
+                    <path
+                        d="M951.19338 862.259281a97.740751 97.740751 0 0 1-97.689551 97.689551H161.689775a97.740751 97.740751 0 0 1-97.689551-97.689551v-82.943959a444.825378 444.825378 0 0 1 259.68627-403.762998c24.217588-11.007994 40.49918-33.382383 43.622378-59.69917a75.673562 75.673562 0 0 0-28.620785-68.812766 155.289522 155.289522 0 0 1-13.004794-11.468794c-42.598379-42.598379-48.076776-96.511952-26.367987-118.271941 10.239995-10.239995 24.678388-12.441594 34.969583-12.441593 9.727995 0 20.01919 1.791999 30.617585 5.375997l36.966381 12.543994 28.006386-27.238387a111.206344 111.206344 0 0 1 157.798321 2.406399l29.695985 30.617585 39.526381-15.513593c12.083194-4.710398 24.473588-7.167996 35.686382-7.167996 10.291195 0 24.831988 2.201599 35.020782 12.390394 13.567993 13.567993 13.209593 34.406383 11.775994 45.567977-3.174398 25.087987-17.100791 51.507174-38.195181 72.601564a150.425525 150.425525 0 0 1-15.564792 13.619193 75.366362 75.366362 0 0 0-29.849585 68.198366c2.713599 26.419187 18.636791 48.998376 42.649579 60.51837a445.951777 445.951777 0 0 1 252.671873 400.486199v82.995159h0.1024zM726.015893 321.075551a11.724794 11.724794 0 0 1-1.843199-19.91679c7.731196-5.785597 15.103992-12.287994 22.220789-19.40479 64.921568-64.870368 76.799962-158.412721 26.419187-208.793495-20.99199-20.99199-49.510375-31.078384-80.33276-31.078385-19.19999 0-39.16798 3.891198-58.982371 11.571194A174.284713 174.284713 0 0 0 507.596802 0.000512C459.980826 0.000512 416.870448 18.944503 385.280063 49.664487a161.075119 161.075119 0 0 0-51.097574-8.806395c-30.719985 0-59.18717 10.086395-80.17916 31.078384-50.431975 50.431975-38.502381 143.871928 26.367987 208.895896 6.041597 5.939197 12.339194 11.519994 18.84159 16.537591 6.963197 5.478397 5.990397 16.281592-1.996799 19.96799A507.698946 507.698946 0 0 0 0.000256 779.264122v82.995159A161.689519 161.689519 0 0 0 161.689775 1024H853.503829a161.689519 161.689519 0 0 0 161.689519-161.689519v-82.943959a507.494146 507.494146 0 0 0-289.177455-458.239771z"
+                        fill="#1B243B"></path>
+                </svg>
+                <p>招募</p>
+            </div>
+            <div class="quicklink-feedback">
+                <svg viewBox="0 0 1025 1024">
+                    <path
+                        d="M10.727619 516.388571a44.617143 44.617143 0 0 1-10.727619-29.062095c0.78019-12.824381 4.778667-22.137905 11.117714-29.257143l3.998476-4.047238 111.274667-111.859809v-173.592381a44.080762 44.080762 0 0 1 41.788953-41.398857h169.545142L452.217905 14.628571l3.608381-3.510857a44.373333 44.373333 0 0 1 58.026666-0.438857l5.217524 5.217524 110.689524 111.323429h172.714667a43.446857 43.446857 0 0 1 22.479238 8.435809l2.340571 1.950476c1.852952 1.609143 3.559619 3.413333 5.217524 5.36381 0.633905 0.78019 1.462857 1.657905 2.048 2.681905 5.022476 6.826667 7.899429 14.969905 8.289524 23.454476v164.376381l116.297143 118.588952 9.752381 9.801143a42.910476 42.910476 0 0 1 8.192 25.843809 43.78819 43.78819 0 0 1-6.290286 22.820572l-15.506286 15.36-112.542476 111.811047v169.301334a44.373333 44.373333 0 0 1-34.620952 36.815238h-168.618667l-119.808 117.369905-6.485333 6.436571A44.032 44.032 0 0 1 485.668571 977.188571a43.983238 43.983238 0 0 1-25.307428-7.94819l-11.702857-11.897905-111.957334-113.761524h-173.104762a44.519619 44.519619 0 0 1-36.961523-40.96c0-0.633905-0.097524-57.685333-0.097524-171.349333L15.701333 521.313524l-5.022476-4.876191z m62.902857-21.942857l109.324191 108.397715c1.950476 1.950476 3.023238 4.534857 3.023238 7.314285v163.157334c0 5.656381 4.583619 10.24 10.288762 10.24h161.011809c2.730667 0 5.36381 1.121524 7.314286 3.072l22.771809 23.161904 91.818667 93.281524a10.24 10.24 0 0 0 14.482286 0.097524l121.807238-119.417905h157.013333a10.24 10.24 0 0 0 10.24-10.24v-156.42819c0-2.681905 1.072762-5.315048 3.023238-7.265524l22.918096-22.723048 93.866666-93.281523a10.288762 10.288762 0 0 0 0.097524-14.482286l-116.882286-119.174095a10.386286 10.386286 0 0 1-2.925714-7.216762V196.998095a10.24 10.24 0 0 0-10.24-10.24h-163.937524a10.48381 10.48381 0 0 1-7.314285-3.023238l-22.723048-22.918095-86.942476-87.381333a10.288762 10.288762 0 0 0-14.482286-0.097524L361.910857 186.660571H196.169143a10.337524 10.337524 0 0 0-10.24 10.288762v165.790477a10.337524 10.337524 0 0 1-3.023238 7.216761l-22.576762 22.723048L73.630476 479.817143a10.337524 10.337524 0 0 0 0.048762 14.628571z"
+                        fill="#1B243B"></path>
+                    <path
+                        d="M440.807619 601.624381l-116.248381-114.102857a28.476952 28.476952 0 1 1 39.887238-40.569905l75.971048 74.605714 172.080762-172.032a28.42819 28.42819 0 1 1 40.228571 40.228572L440.807619 601.575619z"
+                        fill="#0057FF"></path>
+                </svg>
+                <p>反馈</p>
+            </div>
+            <div class="quicklink-service">
+                <svg viewBox="0 0 1024 1024">
+                    <path
+                        d="M851.0976 691.5584h103.3728V489.984h-103.3728v201.5744z m-781.568 0.2048h103.2192v-201.728H69.5296v201.728zM970.24 420.1472h-33.6384C935.2192 188.0064 749.312 0 512 0 274.8416 0 87.9104 188.0064 86.528 420.1472h-32.6144C24.2176 420.1472 0 443.5968 0 472.6784v236.2368a53.248 53.248 0 0 0 53.9136 52.5824l84.6848 0.7168c64.6656 116.4288 155.8016 186.5728 303.7696 222.6176 19.712 18.2272 62.3616 39.168 96.6144 39.168 59.5456 0 107.8272-35.2256 107.8272-78.7456 0-43.6736-48.2816-78.848-107.8272-78.848-43.1104 0-80.128 26.7264-97.3824 53.3504-94.8736-11.9296-181.5552-83.0464-231.8848-163.84 17.0496-8.8064 32.8192-26.9824 32.8192-47.1552V472.6784c0-29.0816-24.1152-52.5312-53.9648-52.5312h-41.0624C148.8384 231.7312 319.6928 70.2976 512 70.2976s355.8912 161.4336 357.2736 349.8496h-33.8432c-29.696 0-53.9136 23.4496-53.9136 52.5312v236.2368c0 29.0816 24.064 52.5824 53.9136 52.5824h134.656c29.8496 0 53.9136-23.5008 53.9136-52.5824V472.6784c0.1024-28.8768-23.8592-52.4288-53.5552-52.5312h-0.256 0.0512z"
+                        fill="#1B243B"></path>
+                    <path
+                        d="M566.9376 755.9168H457.0624a36.608 36.608 0 0 1 0-73.3184h109.8752a36.6592 36.6592 0 1 1 0 73.3184"
+                        fill="#0057FF"></path>
+                </svg>
+                <p>客服</p>
+            </div>
+            <div id="totop">
+                <svg viewBox="0 0 1024 1024">
+                    <path
+                        d="M511.232 424.704l303.232 303.189333 60.970667-60.928-364.202667-364.202666-364.16 364.202666 60.928 60.928z">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
